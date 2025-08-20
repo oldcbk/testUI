@@ -1,0 +1,2 @@
+在编辑器中打开Assets/ui中的uxml文件,查看ui布局;Viewport中点Preview体验
+在场景中的唯一一个对象中,替换UIDocument组件的Souce Asset,点play体验;改Game视图的大小,看是否是想要的效果
