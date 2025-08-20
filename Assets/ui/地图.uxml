@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; background-color: rgb(136, 147, 78);">
+        <ui:VisualElement name="RightDown" style="flex-grow: 1; position: absolute; top: auto; left: auto; right: 0; bottom: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+            <ui:Button text="右下角按钮" />
+        </ui:VisualElement>
+        <ui:VisualElement name="OwlIcon" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

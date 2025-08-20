@@ -1,0 +1,28 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; background-color: rgb(136, 147, 78);">
+        <ui:VisualElement name="Content" style="margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto;">
+            <ui:VisualElement name="TitleGraph">
+                <ui:Label text="标题图片&#10;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Achivements">
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                </ui:VisualElement>
+                <ui:VisualElement style="flex-direction: row;">
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                    <ui:Label text="Label" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="RightDown" style="flex-grow: 1; position: absolute; top: auto; left: auto; right: 0; bottom: 0; margin-top: 20px; margin-right: 20px; margin-bottom: 20px; margin-left: 20px;">
+            <ui:Button text="右下角按钮" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

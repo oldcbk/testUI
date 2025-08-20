@@ -1,0 +1,8 @@
+Button {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-out-back;
+}
+
+Button:hover {
+    scale: 1.1 1.1;
+}

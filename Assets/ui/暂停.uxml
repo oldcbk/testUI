@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="BackGround" style="flex-grow: 1; flex-shrink: 0; flex-direction: row; background-color: rgb(136, 147, 78);">
+        <ui:VisualElement name="Content" style="margin-top: auto; margin-right: auto; margin-bottom: auto; margin-left: auto;">
+            <ui:VisualElement name="TitleGraph">
+                <ui:Label text="标题图片&#10;" />
+            </ui:VisualElement>
+            <ui:Button text="继续游戏" />
+            <ui:Button text="选项" />
+            <ui:Button text="返回主菜单" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
