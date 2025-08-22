@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:Box>
+        <ui:ListView enabled="false" binding-source-selection-mode="AutoAssign" allow-add="false" allow-remove="false" show-foldout-header="true" show-border="true" show-bound-collection-size="true" item-template="project://database/Assets/Editor/subscriber.uxml?fileID=9197481963319205126&amp;guid=997ace4f026690e4497e47cd485944a5&amp;type=3#subscriber" />
+        <ui:Button text="Invoke" style="display: none;" />
+    </ui:Box>
+</ui:UXML>

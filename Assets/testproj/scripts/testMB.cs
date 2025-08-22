@@ -2,12 +2,12 @@ using UnityEngine;
 
 public class testMB: MonoBehaviour
 {
-    public VoidEC m_EC;
+    public IntEC m_EC;
     private void Start()
     {
         if (m_EC != null)
         {
-            m_EC.p0evt += OnStart;
+            m_EC.p1evt += OnStart;
         }
     }
 
@@ -15,12 +15,12 @@ public class testMB: MonoBehaviour
     {
         if (m_EC != null)
         {
-            m_EC.p0evt -= OnStart;
+            m_EC.p1evt -= OnStart;
         }
     }
 
-    void OnStart()
+    void OnStart(int i)
     {
-        print("hello");
+        print($"{i}");
     }
 }
