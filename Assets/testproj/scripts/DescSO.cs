@@ -1,7 +1,8 @@
 using UnityEngine;
 
-public abstract class DescSO: ScriptableObject
+[CreateAssetMenu(fileName = "nasm_Desc", menuName = "SO/DescSO")]
+public class DescSO: ScriptableObject
 {
-    [TextArea(1, 20)]
-    public string m_描述;
+	[TextArea(1, 20)]
+	public string m_描述;
 }
